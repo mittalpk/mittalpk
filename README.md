@@ -15,6 +15,12 @@ Real, merged fixes to production AI/ML open-source infrastructure — found via 
 | [567-labs/instructor](https://github.com/567-labs/instructor) | Fixed an Anthropic tool-calling bug where forced single-tool requests didn't disable parallel tool use — [#2478](https://github.com/567-labs/instructor/pull/2478) |
 | [process-intelligence-solutions/pm4py](https://github.com/process-intelligence-solutions/pm4py) | Fixed a timezone-corrupting default-path bug in timestamp normalization — [#562](https://github.com/process-intelligence-solutions/pm4py/pull/562) |
 
+## Projects
+
+| Project | Description |
+|---|---|
+| [ARGUS](https://github.com/mittalpk/ARGUS) | Identity-document fraud detection (computer vision ensemble) with a full TOGAF + MLOps + compliance delivery chain (DVC, MLflow, drift detection, EU AI Act/GDPR/ISO 42001 evidence packaging). Finished top 14% of 269 teams on the FREUID Challenge 2026 (IJCAI-ECAI) final private leaderboard, with the smallest public-to-private score degradation of any benchmarked team. |
+
 ## Focus Areas
 
 - Agentic orchestration and multi-agent systems (LangGraph, LangChain)

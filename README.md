@@ -8,14 +8,14 @@ Real, merged fixes to production AI/ML open-source infrastructure — found via 
 
 | Project | Contribution |
 |---|---|
+| [xai-org/grok-build-plugin-cc](https://github.com/xai-org/grok-build-plugin-cc) | Fixed headless (non-interactive) plugin runs that could never get tool-call approval — [#12](https://github.com/xai-org/grok-build-plugin-cc/pull/12) |
+| [mistralai/mistral-vibe](https://github.com/mistralai/mistral-vibe) | Fixed a CVSS 8.8 remote code execution vulnerability (git `core.fsmonitor` hook injection) — landed on `main` — [#962](https://github.com/mistralai/mistral-vibe/pull/962) |
 | [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | Fixed two `KeyError` crashes on `ByteStream` sources — attachment-metadata handling in `MSGToDocument` ([#12207](https://github.com/deepset-ai/haystack/pull/12207)) and error-path logging in `JSONConverter` ([#12208](https://github.com/deepset-ai/haystack/pull/12208)) |
 | [deepset-ai/haystack-cookbook](https://github.com/deepset-ai/haystack-cookbook) | Audited 5 notebooks flagged by an org-wide maintainer pickup board and removed a genuinely-redundant `DocumentJoiner` after verifying the other 4 still needed it — [#309](https://github.com/deepset-ai/haystack-cookbook/pull/309) |
-| [mistralai/mistral-vibe](https://github.com/mistralai/mistral-vibe) | Fixed a CVSS 8.8 remote code execution vulnerability (git `core.fsmonitor` hook injection) — landed on `main` — [#962](https://github.com/mistralai/mistral-vibe/pull/962) |
 | [Meta's llama-stack](https://github.com/ogx-ai/ogx) (now independently governed as `ogx-ai/ogx`) | Fixed an indirect prompt-injection vulnerability via unsanitized tool output — [#6337](https://github.com/ogx-ai/ogx/pull/6337) |
 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | Added HCL/Terraform and Bicep language support — [#524](https://github.com/alibaba/open-code-review/pull/524), [#525](https://github.com/alibaba/open-code-review/pull/525) |
 | [567-labs/instructor](https://github.com/567-labs/instructor) | Fixed an Anthropic tool-calling bug where forced single-tool requests didn't disable parallel tool use — consolidated into [#2495](https://github.com/567-labs/instructor/pull/2495) |
 | [process-intelligence-solutions/pm4py](https://github.com/process-intelligence-solutions/pm4py) | Fixed a timezone-corrupting default-path bug in timestamp normalization — [#562](https://github.com/process-intelligence-solutions/pm4py/pull/562) |
-| [xai-org/grok-build-plugin-cc](https://github.com/xai-org/grok-build-plugin-cc) | Fixed headless (non-interactive) plugin runs that could never get tool-call approval — [#12](https://github.com/xai-org/grok-build-plugin-cc/pull/12) |
 
 ## Projects
 

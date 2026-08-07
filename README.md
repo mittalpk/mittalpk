@@ -16,6 +16,7 @@ Real, merged fixes to production AI/ML open-source infrastructure — found via 
 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | Added HCL/Terraform and Bicep language support — [#524](https://github.com/alibaba/open-code-review/pull/524), [#525](https://github.com/alibaba/open-code-review/pull/525) |
 | [567-labs/instructor](https://github.com/567-labs/instructor) | Fixed an Anthropic tool-calling bug where forced single-tool requests didn't disable parallel tool use — consolidated into [#2495](https://github.com/567-labs/instructor/pull/2495) |
 | [process-intelligence-solutions/pm4py](https://github.com/process-intelligence-solutions/pm4py) | Fixed a timezone-corrupting default-path bug in timestamp normalization — [#562](https://github.com/process-intelligence-solutions/pm4py/pull/562) |
+| [deepset-ai/deepset-mcp-server](https://github.com/deepset-ai/deepset-mcp-server) | Fixed a lone top-level bracket index (`obj[0]`) breaking 5 object-store MCP tools with a misleading "no value at path" error — [#236](https://github.com/deepset-ai/deepset-mcp-server/pull/236) |
 
 ## Projects
 

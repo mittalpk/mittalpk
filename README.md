@@ -17,6 +17,7 @@ Real, merged fixes to production AI/ML open-source infrastructure — found via 
 | [567-labs/instructor](https://github.com/567-labs/instructor) | Fixed an Anthropic tool-calling bug where forced single-tool requests didn't disable parallel tool use — consolidated into [#2495](https://github.com/567-labs/instructor/pull/2495) |
 | [process-intelligence-solutions/pm4py](https://github.com/process-intelligence-solutions/pm4py) | Fixed a timezone-corrupting default-path bug in timestamp normalization — [#562](https://github.com/process-intelligence-solutions/pm4py/pull/562) |
 | [deepset-ai/deepset-mcp-server](https://github.com/deepset-ai/deepset-mcp-server) | Fixed a lone top-level bracket index (`obj[0]`) breaking 5 object-store MCP tools with a misleading "no value at path" error — [#236](https://github.com/deepset-ai/deepset-mcp-server/pull/236) |
+| [docling-project/docling](https://github.com/docling-project/docling) (IBM) | Fixed the METS/GBS backend crashing on a page with no OCR layer instead of marking it invalid, matching a sibling backend's existing graceful-degradation pattern — [#3930](https://github.com/docling-project/docling/pull/3930) |
 
 ## Projects
 

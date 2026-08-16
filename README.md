@@ -16,6 +16,16 @@ Real, merged fixes to production AI/ML open-source infrastructure — found via 
 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | Added HCL/Terraform and Bicep language support — [#524](https://github.com/alibaba/open-code-review/pull/524), [#525](https://github.com/alibaba/open-code-review/pull/525) |
 | [567-labs/instructor](https://github.com/567-labs/instructor) | Fixed an Anthropic tool-calling bug where forced single-tool requests didn't disable parallel tool use — consolidated into [#2495](https://github.com/567-labs/instructor/pull/2495) |
 | [process-intelligence-solutions/pm4py](https://github.com/process-intelligence-solutions/pm4py) | Fixed a timezone-corrupting default-path bug in timestamp normalization — [#562](https://github.com/process-intelligence-solutions/pm4py/pull/562) |
+| [deepset-ai/deepset-mcp-server](https://github.com/deepset-ai/deepset-mcp-server) | Fixed a lone top-level bracket index breaking 5 object-store MCP tools with a misleading "no value at path" error — [#236](https://github.com/deepset-ai/deepset-mcp-server/pull/236) |
+| [docling-project/docling](https://github.com/docling-project/docling) (IBM) | Fixed the METS/GBS backend crashing on pages with no OCR layer, matching a sibling backend's existing graceful-degradation pattern — [#3930](https://github.com/docling-project/docling/pull/3930) |
+
+## Security Research
+
+| Finding | Status |
+|---|---|
+| CVSS 8.8 remote code execution in [mistralai/mistral-vibe](https://github.com/mistralai/mistral-vibe) via git `core.fsmonitor` hook execution | Fixed — [#962](https://github.com/mistralai/mistral-vibe/pull/962), integrated into Mistral's internal repo, credited as co-author on an upcoming release |
+| Vulnerability in [microsoft/graphrag](https://github.com/microsoft/graphrag) | Reported via MSRC responsible disclosure (2026-07-24) — in triage, technical details withheld until a coordinated disclosure |
+| Vulnerability in [deepset-ai/hayhooks](https://github.com/deepset-ai/hayhooks) | Reported via a private GitHub Security Advisory — in triage, technical details withheld until a fix ships |
 
 ## Projects
 

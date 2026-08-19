@@ -34,6 +34,10 @@ Real, merged fixes to production AI/ML open-source infrastructure — found via 
 | Project | Description |
 |---|---|
 | [ARGUS](https://github.com/mittalpk/ARGUS) | Identity-document fraud detection (computer vision ensemble) with a full TOGAF + MLOps + compliance delivery chain (DVC, MLflow, drift detection, EU AI Act/GDPR/ISO 42001 evidence packaging). Finished top 14% of 269 teams on the FREUID Challenge 2026 (IJCAI-ECAI) final private leaderboard, with the smallest public-to-private score degradation of any benchmarked team. |
+| [Continuum](https://github.com/mittalpk/Continuum) | MCP server giving agents persistent, tiered memory (working/episodic/semantic) on CockroachDB's distributed SQL and vector indexing — 4 real MCP tools, a full test suite, and a live demo. Built for the CockroachDB × AWS "Build with Agentic Memory" Hackathon. |
+| [VigilRAG](https://github.com/mittalpk/VigilRAG) | Federated enterprise knowledge retrieval and agentic multi-hop reasoning across GitHub, Azure Blob, SQL, and Confluence behind one API — RBAC+JWT auth, a RAGAS evaluation gate in CI, an MCP tool interface, and a compliance-grade audit log. |
+| [Pulse](https://github.com/mittalpk/Pulse) | YouTube-audience-insight tool — Claude structured-output comment classification, privacy-by-design PII handling, n8n/Sheets/Slack integration, and an ElevenLabs spoken briefing. Built with a 3-person hackathon team (backend & pipeline). |
+| [n8n-enterprise-portfolio](https://github.com/mittalpk/n8n-enterprise-portfolio) | Institutional-grade n8n workflow automation for financial services — 2 production-tested workflows shipped (of 20 planned), each with a full requirements/architecture/test documentation suite. |
 
 ## Focus Areas
 

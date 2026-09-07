@@ -24,6 +24,7 @@ Real, merged fixes to production AI/ML open-source infrastructure — found via 
 | [temporalio/sdk-go](https://github.com/temporalio/sdk-go) | Fixed `FailureToError` passing a raw, undecoded payload proto for reset-workflow failures instead of decoding it like every sibling failure type, so `Details()` on the resulting error failed instead of returning the value — [#2522](https://github.com/temporalio/sdk-go/pull/2522) |
 | [apache/iceberg-python](https://github.com/apache/iceberg-python) | Fixed partition values for `timestamp_ns` columns silently passing through unconverted instead of being encoded to nanoseconds, unlike the existing microsecond-type handling — [#3695](https://github.com/apache/iceberg-python/pull/3695) |
 | [deepset-ai/fastapi-openai-compat](https://github.com/deepset-ai/fastapi-openai-compat) | Fixed all four OpenAI-compatible streaming wrappers silently truncating an already-started response with no error signal when the generator raised mid-stream — [#4](https://github.com/deepset-ai/fastapi-openai-compat/pull/4) |
+| [google/langextract](https://github.com/google/langextract) | Diagnosed and fixed a Gemini safety-block reporting bug ([#507](https://github.com/google/langextract/pull/507)); the maintainer merged a broader consolidated fix ([#534](https://github.com/google/langextract/pull/534)) that explicitly credits this analysis by name |
 
 ## Security Research
 

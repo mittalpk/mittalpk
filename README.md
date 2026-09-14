@@ -4,7 +4,7 @@ AI Solutions Architect / Senior AI Engineer — LLM orchestration, RAG, agentic 
 
 ## Open Source Contributions
 
-Real, merged fixes to production AI/ML open-source infrastructure — found via direct code audits, not the issue tracker.
+Real fixes to production AI/ML open-source infrastructure, merged or landed via a maintainer's own follow-up that confirmed the diagnosis — found via a mix of direct code audits and issue-tracker triage.
 
 | Project | Contribution |
 |---|---|
@@ -23,7 +23,6 @@ Real, merged fixes to production AI/ML open-source infrastructure — found via 
 | [cloudflare/langchain-cloudflare](https://github.com/cloudflare/langchain-cloudflare) | Fixed three bugs in Cloudflare's LangChain/LangGraph integration: the sync D1 checkpoint saver's `list()` silently ignored metadata/`before` filters that the async path applied correctly ([#50](https://github.com/cloudflare/langchain-cloudflare/pull/50)), the Vectorize store's `search()` raised `UnboundLocalError` on a valid empty-query "list everything" call ([#51](https://github.com/cloudflare/langchain-cloudflare/pull/51)), and the reranker never actually sorted results despite every docstring promising it ([#52](https://github.com/cloudflare/langchain-cloudflare/pull/52)) — all three landed on `main` via the maintainer's consolidated [#53](https://github.com/cloudflare/langchain-cloudflare/pull/53) |
 | [temporalio/sdk-go](https://github.com/temporalio/sdk-go) | Fixed `FailureToError` passing a raw, undecoded payload proto for reset-workflow failures instead of decoding it like every sibling failure type, so `Details()` on the resulting error failed instead of returning the value — [#2522](https://github.com/temporalio/sdk-go/pull/2522) |
 | [apache/iceberg-python](https://github.com/apache/iceberg-python) | Fixed partition values for `timestamp_ns` columns silently passing through unconverted instead of being encoded to nanoseconds, unlike the existing microsecond-type handling — [#3695](https://github.com/apache/iceberg-python/pull/3695) |
-| [deepset-ai/fastapi-openai-compat](https://github.com/deepset-ai/fastapi-openai-compat) | Fixed all four OpenAI-compatible streaming wrappers silently truncating an already-started response with no error signal when the generator raised mid-stream — [#4](https://github.com/deepset-ai/fastapi-openai-compat/pull/4) |
 | [google/langextract](https://github.com/google/langextract) | Diagnosed and fixed a Gemini safety-block reporting bug ([#507](https://github.com/google/langextract/pull/507)); the maintainer merged a broader consolidated fix ([#534](https://github.com/google/langextract/pull/534)) that explicitly credits this analysis by name |
 
 ## Security Research

@@ -8,6 +8,7 @@ Real fixes to production AI/ML open-source infrastructure, merged or landed via 
 
 | Project | Contribution |
 |---|---|
+| [awslabs/aidlc-workflows](https://github.com/awslabs/aidlc-workflows) | Fixed the claim-sources sensor comparing a multi-line assumption confirmation per-line against a per-block deliverable, so any correctly-authored assumption spanning more than one line could never register as accepted — [#1156](https://github.com/awslabs/aidlc-workflows/pull/1156) |
 | [Meta's llama-stack](https://github.com/ogx-ai/ogx) (now independently governed as `ogx-ai/ogx`) | Fixed an indirect prompt-injection vulnerability via unsanitized tool output — [#6337](https://github.com/ogx-ai/ogx/pull/6337) |
 | [google/langextract](https://github.com/google/langextract) | Diagnosed and fixed a Gemini safety-block reporting bug ([#507](https://github.com/google/langextract/pull/507)); the maintainer merged a broader consolidated fix ([#534](https://github.com/google/langextract/pull/534)) that explicitly credits this analysis by name |
 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | Added HCL/Terraform and Bicep language support — [#524](https://github.com/alibaba/open-code-review/pull/524), [#525](https://github.com/alibaba/open-code-review/pull/525) |

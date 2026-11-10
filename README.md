@@ -38,6 +38,7 @@ Real fixes to production AI/ML open-source infrastructure, merged or landed via 
 
 | Finding | Status |
 |---|---|
+| High (CVSS 7.1) cross-tenant sandbox takeover in [SAP/astonish](https://github.com/SAP/astonish), **CVE-2026-109797** | Reported privately to SAP (2026-08-26), fixed in v3.6.0, advisory [GHSA-93c9-96j8-4vg9](https://github.com/SAP/astonish/security/advisories/GHSA-93c9-96j8-4vg9) published with credit (2026-11-10) |
 | CVSS 8.8 remote code execution in [mistralai/mistral-vibe](https://github.com/mistralai/mistral-vibe) via git `core.fsmonitor` hook execution | Fixed — [#962](https://github.com/mistralai/mistral-vibe/pull/962), integrated into Mistral's internal repo, credited as co-author on an upcoming release |
 | Vulnerability in [microsoft/graphrag](https://github.com/microsoft/graphrag) | Reported via MSRC responsible disclosure (2026-07-24) — in triage, technical details withheld until a coordinated disclosure |
 | Vulnerability in [deepset-ai/hayhooks](https://github.com/deepset-ai/hayhooks) | Reported via a private GitHub Security Advisory — in triage, technical details withheld until a fix ships |
